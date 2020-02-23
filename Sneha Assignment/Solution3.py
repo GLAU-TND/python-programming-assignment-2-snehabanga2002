@@ -1,4 +1,5 @@
-a = bin(int(input()))[2:];
+n = int(input())
+a = bin(n)[2:]
 b = list(map(str,a.split("0")))
 ans = 0
 for i in b:
